@@ -1,0 +1,306 @@
+{
+  "audit_scope": "fixed mask; prior mechanism constraints only; no target condition; no mask reselection",
+  "interpretation": "failure exposes a mandatory missing-activity condition, not proof that a mechanism is false",
+  "deletion_precision": "whole cells/regions are erased, so both models share the same admissible precision",
+  "all_zero_exception_handled_by": "retaining positive leakage elsewhere, and a positive anchor outside the probe region",
+  "original_two_region_fixed_physical_mask": [
+    {
+      "h_hours": "1",
+      "mask_cell_count": 4,
+      "fixed_mask_hours": "[1,3)",
+      "A_nonzero_minimum_ship_hours": "4",
+      "A_W_region_minimum_with_positive_E_anchor_ship_hours": "2",
+      "B_W_region_minimum_with_positive_E_anchor_ship_hours": "0",
+      "whole_W_region_removal_preserves_A": false,
+      "whole_W_region_removal_preserves_B": true,
+      "remaining_missing_ship_hours": "2"
+    },
+    {
+      "h_hours": "1/2",
+      "mask_cell_count": 8,
+      "fixed_mask_hours": "[1,3)",
+      "A_nonzero_minimum_ship_hours": "4",
+      "A_W_region_minimum_with_positive_E_anchor_ship_hours": "2",
+      "B_W_region_minimum_with_positive_E_anchor_ship_hours": "0",
+      "whole_W_region_removal_preserves_A": false,
+      "whole_W_region_removal_preserves_B": true,
+      "remaining_missing_ship_hours": "2"
+    },
+    {
+      "h_hours": "1/4",
+      "mask_cell_count": 16,
+      "fixed_mask_hours": "[1,3)",
+      "A_nonzero_minimum_ship_hours": "4",
+      "A_W_region_minimum_with_positive_E_anchor_ship_hours": "2",
+      "B_W_region_minimum_with_positive_E_anchor_ship_hours": "0",
+      "whole_W_region_removal_preserves_A": false,
+      "whole_W_region_removal_preserves_B": true,
+      "remaining_missing_ship_hours": "2"
+    }
+  ],
+  "new_three_region_total_activity_example": {
+    "mask": "L,C,R x period 1, both 1-hour bins; fixed, not reselected",
+    "physical_meaning": "region where partial reception impairment may occur; not a total AIS blackout",
+    "observed_period_totals_ship_hours": [
+      8,
+      10
+    ],
+    "true_period_totals_ship_hours": [
+      10,
+      10
+    ],
+    "true_C_activity_ship_hours": 0,
+    "truth_not_given_to_optimizer": true,
+    "counterexample_target": "first-period true total at least second-period true total",
+    "fixed_mask_variable_order": [
+      "L0",
+      "C0",
+      "R0",
+      "L1",
+      "C1",
+      "R1"
+    ],
+    "enumerated_vectors": 924,
+    "search_cutoff_from_feasible_A_witness_ship_hours": 6,
+    "actual_hidden_witness": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "audit_start_witness": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "audit_after_C_deletion": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "audit_after_C_deletion_still_nonzero": true,
+    "models": {
+      "A": {
+        "legal_vectors_in_certified_search_range": 2,
+        "target_satisfying_vectors": 1,
+        "minimum_ship_hours": 6,
+        "optimal_count": 1,
+        "all_optima": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "anchor": "R in first hour has at least 1 missing ship-hour",
+        "minimum_C_ship_hours_under_anchor": 2,
+        "removal_tests_without_target_condition": 6,
+        "failed_removal_tests_without_target_condition": 6
+      },
+      "B": {
+        "legal_vectors_in_certified_search_range": 924,
+        "target_satisfying_vectors": 917,
+        "minimum_ship_hours": 2,
+        "optimal_count": 21,
+        "all_optima": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "anchor": "R in first hour has at least 1 missing ship-hour",
+        "minimum_C_ship_hours_under_anchor": 0,
+        "removal_tests_without_target_condition": 2772,
+        "failed_removal_tests_without_target_condition": 0
+      }
+    }
+  },
+  "internal_second_example": {
+    "observed_W1_E1_W2_E2": [
+      5,
+      2,
+      4,
+      6
+    ],
+    "threshold_ship_hours": {
+      "A": 7,
+      "B": 3
+    },
+    "A_forced_second_period_ship_hours": 2
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "old": {
+    "A": {
+      "box_vectors": 81,
+      "unit_deletion_edges": 64,
+      "failed_deletions": 32,
+      "conditional_minimum_in_box": 1
+    },
+    "B": {
+      "box_vectors": 81,
+      "unit_deletion_edges": 216,
+      "failed_deletions": 0,
+      "conditional_minimum_in_box": 0
+    }
+  },
+  "new": {
+    "A": {
+      "box_vectors": 729,
+      "unit_deletion_edges": 384,
+      "failed_deletions": 192,
+      "conditional_minimum_in_box": 2
+    },
+    "B": {
+      "box_vectors": 729,
+      "unit_deletion_edges": 2916,
+      "failed_deletions": 0,
+      "conditional_minimum_in_box": 0
+    }
+  },
+  "new_thresholds": {
+    "A": 6,
+    "B": 2
+  }
+}

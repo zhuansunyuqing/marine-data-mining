@@ -1,0 +1,1 @@
+{"verified": true, "new_example_thresholds": {"A": 6, "B": 2}, "new_example_C_lower_bounds": {"A": 2, "B": 0}, "enumerated": 924}

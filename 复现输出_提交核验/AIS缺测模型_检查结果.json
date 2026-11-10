@@ -1,0 +1,419 @@
+{
+  "old_cross_period_mask_4_cells": {
+    "A": {
+      "box_vectors": 81,
+      "unit_deletion_edges": 64,
+      "failed_deletions": 32,
+      "first_failure": {
+        "original": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "deleted_index": 0,
+        "reduced": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "anchor_index": 1,
+      "target_indices": [
+        0
+      ],
+      "conditional_minimum_in_box": 1,
+      "floor_witness": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "finite box for implementation check; not a physical upper bound"
+    },
+    "B": {
+      "box_vectors": 81,
+      "unit_deletion_edges": 216,
+      "failed_deletions": 0,
+      "first_failure": null,
+      "anchor_index": 1,
+      "target_indices": [
+        0
+      ],
+      "conditional_minimum_in_box": 0,
+      "floor_witness": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "scope": "finite box for implementation check; not a physical upper bound"
+    }
+  },
+  "new_first_period_mask_6_cells": {
+    "A": {
+      "box_vectors": 729,
+      "unit_deletion_edges": 384,
+      "failed_deletions": 192,
+      "first_failure": {
+        "original": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "deleted_index": 0,
+        "reduced": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "anchor_index": 2,
+      "target_indices": [
+        1,
+        4
+      ],
+      "conditional_minimum_in_box": 2,
+      "floor_witness": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scope": "finite box for implementation check; not a physical upper bound"
+    },
+    "B": {
+      "box_vectors": 729,
+      "unit_deletion_edges": 2916,
+      "failed_deletions": 0,
+      "first_failure": null,
+      "anchor_index": 2,
+      "target_indices": [
+        1,
+        4
+      ],
+      "conditional_minimum_in_box": 0,
+      "floor_witness": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "scope": "finite box for implementation check; not a physical upper bound"
+    }
+  },
+  "new_growth_example": {
+    "observed_early": [
+      [
+        2,
+        0,
+        2
+      ],
+      [
+        2,
+        0,
+        2
+      ]
+    ],
+    "observed_late": [
+      [
+        2,
+        0,
+        3
+      ],
+      [
+        2,
+        0,
+        3
+      ]
+    ],
+    "truth_each_period": [
+      [
+        2,
+        0,
+        3
+      ],
+      [
+        2,
+        0,
+        3
+      ]
+    ],
+    "actual_hidden_early": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "S": "L,C,R x first two one-hour slots; fixed independently of missing support",
+    "target": "later total <= earlier total",
+    "enumerated": 924,
+    "models": {
+      "A": {
+        "legal": 2,
+        "counterexamples": 1,
+        "threshold": 6,
+        "optimal": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      },
+      "B": {
+        "legal": 924,
+        "counterexamples": 917,
+        "threshold": 2,
+        "optimal": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "center_deleted_witness": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  "applicability_control_known_total_2": {
+    "box_vectors": 9,
+    "unit_deletion_edges": 4,
+    "failed_deletions": 4,
+    "first_failure": {
+      "original": [
+        0,
+        2
+      ],
+      "deleted_index": 1,
+      "reduced": [
+        0,
+        1
+      ]
+    },
+    "anchor_index": 0,
+    "target_indices": [
+      1
+    ],
+    "conditional_minimum_in_box": 0,
+    "floor_witness": [
+      2,
+      0
+    ],
+    "scope": "finite box for implementation check; not a physical upper bound"
+  },
+  "cross_resolution_fixed_region_floor_vessel_hours": [
+    {
+      "h_minutes": 60,
+      "A": 1,
+      "B": 0
+    },
+    {
+      "h_minutes": 30,
+      "A": 1,
+      "B": 0
+    },
+    {
+      "h_minutes": 15,
+      "A": 1,
+      "B": 0
+    }
+  ],
+  "cross_resolution_basis": "For R=W x [1,2), A has (1/h) cells, each >=h vessel-hours; B permits all zero while E x [1,2) retains >=1 vessel-hour.",
+  "global_proofs": {
+    "A": "m=ones legal, deleting one cell while another stays positive is illegal for n>=2",
+    "B": "nonnegative coordinate reductions retain support subset S and any upper budget bound"
+  },
+  "limitations": [
+    "Audit model feasibility, not the desired conclusion.",
+    "Keep S fixed; do not refit the mask after deletion.",
+    "Do not interpret failure as error when supported lower totals or coupling constraints are explicitly intended.",
+    "A finite successful search alone does not prove an unbounded model is downward closed."
+  ]
+}

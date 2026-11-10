@@ -1,0 +1,461 @@
+{
+  "status": "passed",
+  "started_at": "2026-11-10T02:08:10.491151+08:00",
+  "python_version": "3.12.14",
+  "python_executable": "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1104-2876-0_26.1104.2876.0_x64__3k8sg7r9htsxt\\dependencies\\python\\python.exe",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "output_directory": "C:\\Users\\Zhuansun Yuqing\\Desktop\\海洋技术挖掘\\AIS研究_提交材料_20261110\\复现输出_提交核验",
+  "runner_sha256": "476d6f681ca28d24821d008d73992dd482867bc7b77bc6ef2d04ff1bb93001b9",
+  "source_sha256": {
+    "AIS缺测阈值_小规模穷举.py": "354c494e2f48023c8dcb6d82fdf74f1f48317d1afe5497dc9af6798d25f47b35",
+    "AIS时间分辨率_船时对照.py": "be1d3c834b6b177dfc7998592433db0690d8e83bf611ea70afcff2751c1b4c93",
+    "AIS缺测模型_删减检查.py": "1b5618bc31786830bfa4eefa29ca3a2896c3fc6122b5cb3c564447767e7be79a",
+    ".report_build/verify_simulation.py": "1a7c7d207b8b7cbabec6103486dea8bc32259de2dae708ccce61ed3e87303a89",
+    ".report_build/verify_time_resolution.py": "9308dcf3cc8c89410e3dcd94c03f2e8cf2bf3a15ddcad5e4ef7db275b8ae0ed3",
+    ".report_build/verify_presence_audit.py": "950bdc77e81514b553b019060028cd43b916650d7cf3a03b1a94953eb2f431ba"
+  },
+  "runs": [
+    {
+      "script": "AIS缺测阈值_小规模穷举.py",
+      "command": [
+        "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1104-2876-0_26.1104.2876.0_x64__3k8sg7r9htsxt\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Zhuansun Yuqing\\Desktop\\海洋技术挖掘\\AIS研究_提交材料_20261110\\复现输出_提交核验\\AIS缺测阈值_小规模穷举.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.172,
+      "log": "logs\\AIS缺测阈值_小规模穷举.txt"
+    },
+    {
+      "script": "AIS时间分辨率_船时对照.py",
+      "command": [
+        "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1104-2876-0_26.1104.2876.0_x64__3k8sg7r9htsxt\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Zhuansun Yuqing\\Desktop\\海洋技术挖掘\\AIS研究_提交材料_20261110\\复现输出_提交核验\\AIS时间分辨率_船时对照.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.319,
+      "log": "logs\\AIS时间分辨率_船时对照.txt"
+    },
+    {
+      "script": "AIS缺测模型_删减检查.py",
+      "command": [
+        "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1104-2876-0_26.1104.2876.0_x64__3k8sg7r9htsxt\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Zhuansun Yuqing\\Desktop\\海洋技术挖掘\\AIS研究_提交材料_20261110\\复现输出_提交核验\\AIS缺测模型_删减检查.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.15,
+      "log": "logs\\AIS缺测模型_删减检查.txt"
+    },
+    {
+      "script": ".report_build/verify_simulation.py",
+      "command": [
+        "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1104-2876-0_26.1104.2876.0_x64__3k8sg7r9htsxt\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Zhuansun Yuqing\\Desktop\\海洋技术挖掘\\AIS研究_提交材料_20261110\\复现输出_提交核验\\.report_build\\verify_simulation.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.117,
+      "log": "logs\\verify_simulation.txt"
+    },
+    {
+      "script": ".report_build/verify_time_resolution.py",
+      "command": [
+        "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1104-2876-0_26.1104.2876.0_x64__3k8sg7r9htsxt\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Zhuansun Yuqing\\Desktop\\海洋技术挖掘\\AIS研究_提交材料_20261110\\复现输出_提交核验\\.report_build\\verify_time_resolution.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.69,
+      "log": "logs\\verify_time_resolution.txt"
+    },
+    {
+      "script": ".report_build/verify_presence_audit.py",
+      "command": [
+        "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1104-2876-0_26.1104.2876.0_x64__3k8sg7r9htsxt\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\Zhuansun Yuqing\\Desktop\\海洋技术挖掘\\AIS研究_提交材料_20261110\\复现输出_提交核验\\.report_build\\verify_presence_audit.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.154,
+      "log": "logs\\verify_presence_audit.txt"
+    }
+  ],
+  "checks": [
+    {
+      "item": "表4-2 自由 单块 双块阈值",
+      "actual": [
+        4,
+        6,
+        4
+      ],
+      "expected": [
+        4,
+        6,
+        4
+      ],
+      "passed": true
+    },
+    {
+      "item": "表4-2 主实验枚举总数",
+      "actual": 3003,
+      "expected": 3003,
+      "passed": true
+    },
+    {
+      "item": "表4-2 合法配置数 含全零",
+      "actual": [
+        3003,
+        248,
+        418
+      ],
+      "expected": [
+        3003,
+        248,
+        418
+      ],
+      "passed": true
+    },
+    {
+      "item": "表4-2 最优解数",
+      "actual": [
+        9,
+        10,
+        1
+      ],
+      "expected": [
+        9,
+        10,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "item": "独立核验 原实验阈值",
+      "actual": [
+        4,
+        6,
+        4
+      ],
+      "expected": [
+        4,
+        6,
+        4
+      ],
+      "passed": true
+    },
+    {
+      "item": "独立单块合法数 加入全零后对齐",
+      "actual": 248,
+      "expected": 248,
+      "passed": true
+    },
+    {
+      "item": "表5-1 60分钟船时阈值",
+      "actual": [
+        "4",
+        "6",
+        "4"
+      ],
+      "expected": [
+        "4",
+        "6",
+        "4"
+      ],
+      "passed": true
+    },
+    {
+      "item": "表5-1 60分钟观测船时",
+      "actual": [
+        "4",
+        "2",
+        "2",
+        "4"
+      ],
+      "expected": [
+        "4",
+        "2",
+        "2",
+        "4"
+      ],
+      "passed": true
+    },
+    {
+      "item": "表5-1 30分钟船时阈值",
+      "actual": [
+        "4",
+        "6",
+        "4"
+      ],
+      "expected": [
+        "4",
+        "6",
+        "4"
+      ],
+      "passed": true
+    },
+    {
+      "item": "表5-1 30分钟观测船时",
+      "actual": [
+        "4",
+        "2",
+        "2",
+        "4"
+      ],
+      "expected": [
+        "4",
+        "2",
+        "2",
+        "4"
+      ],
+      "passed": true
+    },
+    {
+      "item": "表5-1 15分钟船时阈值",
+      "actual": [
+        "4",
+        "6",
+        "4"
+      ],
+      "expected": [
+        "4",
+        "6",
+        "4"
+      ],
+      "passed": true
+    },
+    {
+      "item": "表5-1 15分钟观测船时",
+      "actual": [
+        "4",
+        "2",
+        "2",
+        "4"
+      ],
+      "expected": [
+        "4",
+        "2",
+        "2",
+        "4"
+      ],
+      "passed": true
+    },
+    {
+      "item": "独立聚合核验 片长1",
+      "actual": [
+        "4",
+        "6",
+        "4"
+      ],
+      "expected": [
+        "4",
+        "6",
+        "4"
+      ],
+      "passed": true
+    },
+    {
+      "item": "独立聚合核验 片长1/2",
+      "actual": [
+        "4",
+        "6",
+        "4"
+      ],
+      "expected": [
+        "4",
+        "6",
+        "4"
+      ],
+      "passed": true
+    },
+    {
+      "item": "独立聚合核验 片长1/4",
+      "actual": [
+        "4",
+        "6",
+        "4"
+      ],
+      "expected": [
+        "4",
+        "6",
+        "4"
+      ],
+      "passed": true
+    },
+    {
+      "item": "表6-3 三海区A B阈值",
+      "actual": [
+        6,
+        2
+      ],
+      "expected": [
+        6,
+        2
+      ],
+      "passed": true
+    },
+    {
+      "item": "表6-3 三海区枚举总数",
+      "actual": 924,
+      "expected": 924,
+      "passed": true
+    },
+    {
+      "item": "表6-3 三海区最优解数",
+      "actual": [
+        1,
+        21
+      ],
+      "expected": [
+        1,
+        21
+      ],
+      "passed": true
+    },
+    {
+      "item": "表6-2 展示的B补法属于最优解",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "item": "表6-2 两期合计 真值 观测 实漏 A补 A后 B补 B后",
+      "actual": [
+        [
+          10,
+          8,
+          2,
+          6,
+          14,
+          2,
+          10
+        ],
+        [
+          10,
+          10,
+          0,
+          0,
+          10,
+          0,
+          10
+        ]
+      ],
+      "expected": [
+        [
+          10,
+          8,
+          2,
+          6,
+          14,
+          2,
+          10
+        ],
+        [
+          10,
+          10,
+          0,
+          0,
+          10,
+          0,
+          10
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "item": "独立核验 三海区阈值",
+      "actual": [
+        6,
+        2
+      ],
+      "expected": [
+        6,
+        2
+      ],
+      "passed": true
+    },
+    {
+      "item": "表6-1 原例条件下界",
+      "actual": [
+        1,
+        0
+      ],
+      "expected": [
+        1,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "item": "表6-3 新例中区条件下界",
+      "actual": [
+        2,
+        0
+      ],
+      "expected": [
+        2,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "item": "重新生成结果与报告原始结果逐字段一致 AIS缺测阈值_模拟结果.json",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "item": "重新生成结果与报告原始结果逐字段一致 AIS时间分辨率_船时结果.json",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "item": "重新生成结果与报告原始结果逐字段一致 AIS缺测模型_检查结果.json",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    }
+  ],
+  "summary": {
+    "original_thresholds": [
+      4,
+      6,
+      4
+    ],
+    "time_resolution_thresholds": [
+      [
+        60,
+        "4",
+        "6",
+        "4"
+      ],
+      [
+        30,
+        "4",
+        "6",
+        "4"
+      ],
+      [
+        15,
+        "4",
+        "6",
+        "4"
+      ]
+    ],
+    "new_growth_thresholds": [
+      6,
+      2
+    ],
+    "all_checks_passed": true
+  },
+  "finished_at": "2026-11-10T02:08:13.732370+08:00",
+  "elapsed_seconds": 2.61
+}

@@ -1,0 +1,3 @@
+60 {'free': '4', 'full_bin_positive': '6', 'outage_region': '4'} {'free': 20475, 'full_bin_positive': 210, 'outage_region': 20475}
+30 {'free': '4', 'full_bin_positive': '6', 'outage_region': '4'} {'free': 20475, 'full_bin_positive': 1820, 'outage_region': 20475}
+15 {'free': '4', 'full_bin_positive': '6', 'outage_region': '4'} {'free': 20475, 'full_bin_positive': 20475, 'outage_region': 20475}

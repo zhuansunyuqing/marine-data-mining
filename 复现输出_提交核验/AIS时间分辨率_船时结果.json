@@ -1,0 +1,845 @@
+{
+  "time_unit": "hours; two simulated periods [0,2),[2,4)",
+  "fleet_truth_only": [
+    [
+      "W1",
+      0,
+      [
+        [
+          "0",
+          "4"
+        ]
+      ]
+    ],
+    [
+      "W2",
+      0,
+      [
+        [
+          "0",
+          "2"
+        ]
+      ]
+    ],
+    [
+      "W3",
+      0,
+      []
+    ],
+    [
+      "E1",
+      1,
+      [
+        [
+          "0",
+          "4"
+        ]
+      ]
+    ],
+    [
+      "E2",
+      1,
+      [
+        [
+          "2",
+          "4"
+        ]
+      ]
+    ],
+    [
+      "E3",
+      1,
+      []
+    ]
+  ],
+  "same_observation_events_across_h": true,
+  "capacity_bound_used": false,
+  "candidate_blocks": [
+    [
+      [
+        0
+      ],
+      "0",
+      "2"
+    ],
+    [
+      [
+        0
+      ],
+      "1",
+      "3"
+    ],
+    [
+      [
+        0
+      ],
+      "2",
+      "4"
+    ],
+    [
+      [
+        1
+      ],
+      "0",
+      "2"
+    ],
+    [
+      [
+        1
+      ],
+      "1",
+      "3"
+    ],
+    [
+      [
+        1
+      ],
+      "2",
+      "4"
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      "0",
+      "2"
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      "1",
+      "3"
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      "2",
+      "4"
+    ]
+  ],
+  "duration_hours": 2,
+  "latent_truth_is_not_assumed_to_follow_a_single_2h_outage": true,
+  "exact_projection_condition": "No vessel identity, speed, or per-slot capacity constraints; all covered cells allow unbounded additions.",
+  "results": [
+    {
+      "h_minutes": 60,
+      "required_bins_for_2h": 2,
+      "observed_months_vessel_hours": [
+        "4",
+        "2",
+        "2",
+        "4"
+      ],
+      "truth_months_vessel_hours": [
+        "6",
+        "6",
+        "6",
+        "6"
+      ],
+      "actual_hidden_vessel_hours": "12",
+      "aggregated_event_rows": [
+        {
+          "start": "0",
+          "end": "1",
+          "truth": [
+            "3",
+            "3"
+          ],
+          "seen": [
+            "2",
+            "1"
+          ],
+          "hidden": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "start": "1",
+          "end": "2",
+          "truth": [
+            "3",
+            "3"
+          ],
+          "seen": [
+            "2",
+            "1"
+          ],
+          "hidden": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "start": "2",
+          "end": "3",
+          "truth": [
+            "3",
+            "3"
+          ],
+          "seen": [
+            "1",
+            "2"
+          ],
+          "hidden": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "start": "3",
+          "end": "4",
+          "truth": [
+            "3",
+            "3"
+          ],
+          "seen": [
+            "1",
+            "2"
+          ],
+          "hidden": [
+            "2",
+            "1"
+          ]
+        }
+      ],
+      "models": {
+        "free": {
+          "threshold_vessel_hours": "4",
+          "quantum_vessel_hours": "1/4",
+          "aggregate_vectors_enumerated": 20475,
+          "witness": {
+            "aggregate_missing": [
+              "0",
+              "2",
+              "2",
+              "0"
+            ],
+            "block_index": -1
+          }
+        },
+        "full_bin_positive": {
+          "threshold_vessel_hours": "6",
+          "quantum_vessel_hours": "1",
+          "aggregate_vectors_enumerated": 210,
+          "witness": {
+            "aggregate_missing": [
+              "0",
+              "0",
+              "6",
+              "0"
+            ],
+            "block_index": 2
+          }
+        },
+        "outage_region": {
+          "threshold_vessel_hours": "4",
+          "quantum_vessel_hours": "1/4",
+          "aggregate_vectors_enumerated": 20475,
+          "witness": {
+            "aggregate_missing": [
+              "0",
+              "2",
+              "2",
+              "0"
+            ],
+            "block_index": 7
+          }
+        }
+      },
+      "at_least_2h_same_endpoint_control": {
+        "full_bin_positive": "6",
+        "outage_region": "4"
+      },
+      "verified_event_witnesses": {
+        "full_bin_positive": {
+          "vessel_hours": "6",
+          "corrected_months": [
+            "4",
+            "8",
+            "2",
+            "4"
+          ],
+          "delta": "0"
+        },
+        "outage_region": {
+          "vessel_hours": "4",
+          "corrected_months": [
+            "4",
+            "4",
+            "4",
+            "4"
+          ],
+          "delta": "0"
+        }
+      }
+    },
+    {
+      "h_minutes": 30,
+      "required_bins_for_2h": 4,
+      "observed_months_vessel_hours": [
+        "4",
+        "2",
+        "2",
+        "4"
+      ],
+      "truth_months_vessel_hours": [
+        "6",
+        "6",
+        "6",
+        "6"
+      ],
+      "actual_hidden_vessel_hours": "12",
+      "aggregated_event_rows": [
+        {
+          "start": "0",
+          "end": "1/2",
+          "truth": [
+            "3/2",
+            "3/2"
+          ],
+          "seen": [
+            "1",
+            "1/2"
+          ],
+          "hidden": [
+            "1/2",
+            "1"
+          ]
+        },
+        {
+          "start": "1/2",
+          "end": "1",
+          "truth": [
+            "3/2",
+            "3/2"
+          ],
+          "seen": [
+            "1",
+            "1/2"
+          ],
+          "hidden": [
+            "1/2",
+            "1"
+          ]
+        },
+        {
+          "start": "1",
+          "end": "3/2",
+          "truth": [
+            "3/2",
+            "3/2"
+          ],
+          "seen": [
+            "1",
+            "1/2"
+          ],
+          "hidden": [
+            "1/2",
+            "1"
+          ]
+        },
+        {
+          "start": "3/2",
+          "end": "2",
+          "truth": [
+            "3/2",
+            "3/2"
+          ],
+          "seen": [
+            "1",
+            "1/2"
+          ],
+          "hidden": [
+            "1/2",
+            "1"
+          ]
+        },
+        {
+          "start": "2",
+          "end": "5/2",
+          "truth": [
+            "3/2",
+            "3/2"
+          ],
+          "seen": [
+            "1/2",
+            "1"
+          ],
+          "hidden": [
+            "1",
+            "1/2"
+          ]
+        },
+        {
+          "start": "5/2",
+          "end": "3",
+          "truth": [
+            "3/2",
+            "3/2"
+          ],
+          "seen": [
+            "1/2",
+            "1"
+          ],
+          "hidden": [
+            "1",
+            "1/2"
+          ]
+        },
+        {
+          "start": "3",
+          "end": "7/2",
+          "truth": [
+            "3/2",
+            "3/2"
+          ],
+          "seen": [
+            "1/2",
+            "1"
+          ],
+          "hidden": [
+            "1",
+            "1/2"
+          ]
+        },
+        {
+          "start": "7/2",
+          "end": "4",
+          "truth": [
+            "3/2",
+            "3/2"
+          ],
+          "seen": [
+            "1/2",
+            "1"
+          ],
+          "hidden": [
+            "1",
+            "1/2"
+          ]
+        }
+      ],
+      "models": {
+        "free": {
+          "threshold_vessel_hours": "4",
+          "quantum_vessel_hours": "1/4",
+          "aggregate_vectors_enumerated": 20475,
+          "witness": {
+            "aggregate_missing": [
+              "0",
+              "2",
+              "2",
+              "0"
+            ],
+            "block_index": -1
+          }
+        },
+        "full_bin_positive": {
+          "threshold_vessel_hours": "6",
+          "quantum_vessel_hours": "1/2",
+          "aggregate_vectors_enumerated": 1820,
+          "witness": {
+            "aggregate_missing": [
+              "0",
+              "0",
+              "6",
+              "0"
+            ],
+            "block_index": 2
+          }
+        },
+        "outage_region": {
+          "threshold_vessel_hours": "4",
+          "quantum_vessel_hours": "1/4",
+          "aggregate_vectors_enumerated": 20475,
+          "witness": {
+            "aggregate_missing": [
+              "0",
+              "2",
+              "2",
+              "0"
+            ],
+            "block_index": 7
+          }
+        }
+      },
+      "at_least_2h_same_endpoint_control": {
+        "full_bin_positive": "6",
+        "outage_region": "4"
+      },
+      "verified_event_witnesses": {
+        "full_bin_positive": {
+          "vessel_hours": "6",
+          "corrected_months": [
+            "4",
+            "8",
+            "2",
+            "4"
+          ],
+          "delta": "0"
+        },
+        "outage_region": {
+          "vessel_hours": "4",
+          "corrected_months": [
+            "4",
+            "4",
+            "4",
+            "4"
+          ],
+          "delta": "0"
+        }
+      }
+    },
+    {
+      "h_minutes": 15,
+      "required_bins_for_2h": 8,
+      "observed_months_vessel_hours": [
+        "4",
+        "2",
+        "2",
+        "4"
+      ],
+      "truth_months_vessel_hours": [
+        "6",
+        "6",
+        "6",
+        "6"
+      ],
+      "actual_hidden_vessel_hours": "12",
+      "aggregated_event_rows": [
+        {
+          "start": "0",
+          "end": "1/4",
+          "truth": [
+            "3/4",
+            "3/4"
+          ],
+          "seen": [
+            "1/2",
+            "1/4"
+          ],
+          "hidden": [
+            "1/4",
+            "1/2"
+          ]
+        },
+        {
+          "start": "1/4",
+          "end": "1/2",
+          "truth": [
+            "3/4",
+            "3/4"
+          ],
+          "seen": [
+            "1/2",
+            "1/4"
+          ],
+          "hidden": [
+            "1/4",
+            "1/2"
+          ]
+        },
+        {
+          "start": "1/2",
+          "end": "3/4",
+          "truth": [
+            "3/4",
+            "3/4"
+          ],
+          "seen": [
+            "1/2",
+            "1/4"
+          ],
+          "hidden": [
+            "1/4",
+            "1/2"
+          ]
+        },
+        {
+          "start": "3/4",
+          "end": "1",
+          "truth": [
+            "3/4",
+            "3/4"
+          ],
+          "seen": [
+            "1/2",
+            "1/4"
+          ],
+          "hidden": [
+            "1/4",
+            "1/2"
+          ]
+        },
+        {
+          "start": "1",
+          "end": "5/4",
+          "truth": [
+            "3/4",
+            "3/4"
+          ],
+          "seen": [
+            "1/2",
+            "1/4"
+          ],
+          "hidden": [
+            "1/4",
+            "1/2"
+          ]
+        },
+        {
+          "start": "5/4",
+          "end": "3/2",
+          "truth": [
+            "3/4",
+            "3/4"
+          ],
+          "seen": [
+            "1/2",
+            "1/4"
+          ],
+          "hidden": [
+            "1/4",
+            "1/2"
+          ]
+        },
+        {
+          "start": "3/2",
+          "end": "7/4",
+          "truth": [
+            "3/4",
+            "3/4"
+          ],
+          "seen": [
+            "1/2",
+            "1/4"
+          ],
+          "hidden": [
+            "1/4",
+            "1/2"
+          ]
+        },
+        {
+          "start": "7/4",
+          "end": "2",
+          "truth": [
+            "3/4",
+            "3/4"
+          ],
+          "seen": [
+            "1/2",
+            "1/4"
+          ],
+          "hidden": [
+            "1/4",
+            "1/2"
+          ]
+        },
+        {
+          "start": "2",
+          "end": "9/4",
+          "truth": [
+            "3/4",
+            "3/4"
+          ],
+          "seen": [
+            "1/4",
+            "1/2"
+          ],
+          "hidden": [
+            "1/2",
+            "1/4"
+          ]
+        },
+        {
+          "start": "9/4",
+          "end": "5/2",
+          "truth": [
+            "3/4",
+            "3/4"
+          ],
+          "seen": [
+            "1/4",
+            "1/2"
+          ],
+          "hidden": [
+            "1/2",
+            "1/4"
+          ]
+        },
+        {
+          "start": "5/2",
+          "end": "11/4",
+          "truth": [
+            "3/4",
+            "3/4"
+          ],
+          "seen": [
+            "1/4",
+            "1/2"
+          ],
+          "hidden": [
+            "1/2",
+            "1/4"
+          ]
+        },
+        {
+          "start": "11/4",
+          "end": "3",
+          "truth": [
+            "3/4",
+            "3/4"
+          ],
+          "seen": [
+            "1/4",
+            "1/2"
+          ],
+          "hidden": [
+            "1/2",
+            "1/4"
+          ]
+        },
+        {
+          "start": "3",
+          "end": "13/4",
+          "truth": [
+            "3/4",
+            "3/4"
+          ],
+          "seen": [
+            "1/4",
+            "1/2"
+          ],
+          "hidden": [
+            "1/2",
+            "1/4"
+          ]
+        },
+        {
+          "start": "13/4",
+          "end": "7/2",
+          "truth": [
+            "3/4",
+            "3/4"
+          ],
+          "seen": [
+            "1/4",
+            "1/2"
+          ],
+          "hidden": [
+            "1/2",
+            "1/4"
+          ]
+        },
+        {
+          "start": "7/2",
+          "end": "15/4",
+          "truth": [
+            "3/4",
+            "3/4"
+          ],
+          "seen": [
+            "1/4",
+            "1/2"
+          ],
+          "hidden": [
+            "1/2",
+            "1/4"
+          ]
+        },
+        {
+          "start": "15/4",
+          "end": "4",
+          "truth": [
+            "3/4",
+            "3/4"
+          ],
+          "seen": [
+            "1/4",
+            "1/2"
+          ],
+          "hidden": [
+            "1/2",
+            "1/4"
+          ]
+        }
+      ],
+      "models": {
+        "free": {
+          "threshold_vessel_hours": "4",
+          "quantum_vessel_hours": "1/4",
+          "aggregate_vectors_enumerated": 20475,
+          "witness": {
+            "aggregate_missing": [
+              "0",
+              "2",
+              "2",
+              "0"
+            ],
+            "block_index": -1
+          }
+        },
+        "full_bin_positive": {
+          "threshold_vessel_hours": "6",
+          "quantum_vessel_hours": "1/4",
+          "aggregate_vectors_enumerated": 20475,
+          "witness": {
+            "aggregate_missing": [
+              "0",
+              "0",
+              "6",
+              "0"
+            ],
+            "block_index": 2
+          }
+        },
+        "outage_region": {
+          "threshold_vessel_hours": "4",
+          "quantum_vessel_hours": "1/4",
+          "aggregate_vectors_enumerated": 20475,
+          "witness": {
+            "aggregate_missing": [
+              "0",
+              "2",
+              "2",
+              "0"
+            ],
+            "block_index": 7
+          }
+        }
+      },
+      "at_least_2h_same_endpoint_control": {
+        "full_bin_positive": "6",
+        "outage_region": "4"
+      },
+      "verified_event_witnesses": {
+        "full_bin_positive": {
+          "vessel_hours": "6",
+          "corrected_months": [
+            "4",
+            "8",
+            "2",
+            "4"
+          ],
+          "delta": "0"
+        },
+        "outage_region": {
+          "vessel_hours": "4",
+          "corrected_months": [
+            "4",
+            "4",
+            "4",
+            "4"
+          ],
+          "delta": "0"
+        }
+      }
+    }
+  ]
+}

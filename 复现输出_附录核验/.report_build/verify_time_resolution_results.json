@@ -1,0 +1,568 @@
+{
+  "units": "ship-hours",
+  "main_duration_hours": "2",
+  "main_start_times_hours": [
+    "0",
+    "1",
+    "2"
+  ],
+  "model_B_fixed_atomic_quantum_hours": "1/4",
+  "candidate_A_witness": "E, [0,2): 3 unobserved ships throughout; cost 6",
+  "candidate_B_witness": "E, [1,2): 2 ships; W, [2,3): 2 ships; cost 4; mask W+E x [1,3)",
+  "search_scope": "monthly region totals, not full vessel trajectories",
+  "compression_assumptions": "no identity, speed, movement, or per-time capacity constraints on M",
+  "truth_role": "same six-vessel event ledger generates observations; not a constraint on candidate M",
+  "true_hidden_ship_hours": "12",
+  "actual_generation_is_single_D2_block": false,
+  "by_h": [
+    {
+      "h_hours": "1",
+      "observed_ship_hours_by_bin_WE": [
+        [
+          "2",
+          "1"
+        ],
+        [
+          "2",
+          "1"
+        ],
+        [
+          "1",
+          "2"
+        ],
+        [
+          "1",
+          "2"
+        ]
+      ],
+      "observed_period_totals_W1_E1_W2_E2": [
+        "4",
+        "2",
+        "2",
+        "4"
+      ],
+      "A_full_bin_rule": {
+        "threshold_ship_hours": "6",
+        "physical_candidates": 9,
+        "aggregate_vectors_enumerated": 210,
+        "legal_aggregate_vectors": 78,
+        "counterexample_aggregate_vectors": 2,
+        "optimal_aggregate_vectors": [
+          [
+            "0",
+            "0",
+            "6",
+            "0"
+          ],
+          [
+            "0",
+            "6",
+            "0",
+            "0"
+          ]
+        ]
+      },
+      "B_mask_fixed_atomic_grid": {
+        "threshold_ship_hours": "4",
+        "physical_candidates": 9,
+        "aggregate_vectors_enumerated": 20475,
+        "legal_aggregate_vectors": 20475,
+        "counterexample_aggregate_vectors": 597,
+        "optimal_aggregate_vectors": [
+          [
+            "0",
+            "2",
+            "2",
+            "0"
+          ]
+        ]
+      },
+      "free": {
+        "threshold_ship_hours": "4",
+        "physical_candidates": 9,
+        "aggregate_vectors_enumerated": 210,
+        "legal_aggregate_vectors": 210,
+        "counterexample_aggregate_vectors": 16,
+        "optimal_aggregate_vectors": [
+          [
+            "0",
+            "2",
+            "2",
+            "0"
+          ]
+        ]
+      },
+      "duration_at_least_2_same_fixed_integer_hour_endpoints": {
+        "A": "6",
+        "B": "4",
+        "physical_candidates": 18
+      },
+      "witness_A_by_bin_WE": [
+        [
+          "0",
+          "3"
+        ],
+        [
+          "0",
+          "3"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "witness_B_by_bin_WE": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "2"
+        ],
+        [
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ]
+    },
+    {
+      "h_hours": "1/2",
+      "observed_ship_hours_by_bin_WE": [
+        [
+          "1",
+          "1/2"
+        ],
+        [
+          "1",
+          "1/2"
+        ],
+        [
+          "1",
+          "1/2"
+        ],
+        [
+          "1",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1/2",
+          "1"
+        ]
+      ],
+      "observed_period_totals_W1_E1_W2_E2": [
+        "4",
+        "2",
+        "2",
+        "4"
+      ],
+      "A_full_bin_rule": {
+        "threshold_ship_hours": "6",
+        "physical_candidates": 9,
+        "aggregate_vectors_enumerated": 1820,
+        "legal_aggregate_vectors": 227,
+        "counterexample_aggregate_vectors": 2,
+        "optimal_aggregate_vectors": [
+          [
+            "0",
+            "0",
+            "6",
+            "0"
+          ],
+          [
+            "0",
+            "6",
+            "0",
+            "0"
+          ]
+        ]
+      },
+      "B_mask_fixed_atomic_grid": {
+        "threshold_ship_hours": "4",
+        "physical_candidates": 9,
+        "aggregate_vectors_enumerated": 20475,
+        "legal_aggregate_vectors": 20475,
+        "counterexample_aggregate_vectors": 597,
+        "optimal_aggregate_vectors": [
+          [
+            "0",
+            "2",
+            "2",
+            "0"
+          ]
+        ]
+      },
+      "free": {
+        "threshold_ship_hours": "4",
+        "physical_candidates": 9,
+        "aggregate_vectors_enumerated": 1820,
+        "legal_aggregate_vectors": 1820,
+        "counterexample_aggregate_vectors": 80,
+        "optimal_aggregate_vectors": [
+          [
+            "0",
+            "2",
+            "2",
+            "0"
+          ]
+        ]
+      },
+      "duration_at_least_2_same_fixed_integer_hour_endpoints": {
+        "A": "6",
+        "B": "4",
+        "physical_candidates": 18
+      },
+      "witness_A_by_bin_WE": [
+        [
+          "0",
+          "3/2"
+        ],
+        [
+          "0",
+          "3/2"
+        ],
+        [
+          "0",
+          "3/2"
+        ],
+        [
+          "0",
+          "3/2"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "witness_B_by_bin_WE": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ]
+    },
+    {
+      "h_hours": "1/4",
+      "observed_ship_hours_by_bin_WE": [
+        [
+          "1/2",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "1/4"
+        ],
+        [
+          "1/2",
+          "1/4"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "observed_period_totals_W1_E1_W2_E2": [
+        "4",
+        "2",
+        "2",
+        "4"
+      ],
+      "A_full_bin_rule": {
+        "threshold_ship_hours": "6",
+        "physical_candidates": 9,
+        "aggregate_vectors_enumerated": 20475,
+        "legal_aggregate_vectors": 960,
+        "counterexample_aggregate_vectors": 2,
+        "optimal_aggregate_vectors": [
+          [
+            "0",
+            "0",
+            "6",
+            "0"
+          ],
+          [
+            "0",
+            "6",
+            "0",
+            "0"
+          ]
+        ]
+      },
+      "B_mask_fixed_atomic_grid": {
+        "threshold_ship_hours": "4",
+        "physical_candidates": 9,
+        "aggregate_vectors_enumerated": 20475,
+        "legal_aggregate_vectors": 20475,
+        "counterexample_aggregate_vectors": 597,
+        "optimal_aggregate_vectors": [
+          [
+            "0",
+            "2",
+            "2",
+            "0"
+          ]
+        ]
+      },
+      "free": {
+        "threshold_ship_hours": "4",
+        "physical_candidates": 9,
+        "aggregate_vectors_enumerated": 20475,
+        "legal_aggregate_vectors": 20475,
+        "counterexample_aggregate_vectors": 597,
+        "optimal_aggregate_vectors": [
+          [
+            "0",
+            "2",
+            "2",
+            "0"
+          ]
+        ]
+      },
+      "duration_at_least_2_same_fixed_integer_hour_endpoints": {
+        "A": "6",
+        "B": "4",
+        "physical_candidates": 18
+      },
+      "witness_A_by_bin_WE": [
+        [
+          "0",
+          "3/4"
+        ],
+        [
+          "0",
+          "3/4"
+        ],
+        [
+          "0",
+          "3/4"
+        ],
+        [
+          "0",
+          "3/4"
+        ],
+        [
+          "0",
+          "3/4"
+        ],
+        [
+          "0",
+          "3/4"
+        ],
+        [
+          "0",
+          "3/4"
+        ],
+        [
+          "0",
+          "3/4"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "witness_B_by_bin_WE": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ]
+    }
+  ]
+}

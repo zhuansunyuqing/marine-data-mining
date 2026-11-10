@@ -1,0 +1,1503 @@
+{
+  "observed_by_period_WE": [
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "search_cutoff_from_feasible_incumbent": 6,
+  "enumeration_size": 3003,
+  "note": "Exactly-one-block counts exclude the zero allocation; at-most-two counts include it.",
+  "results": {
+    "free": {
+      "legal_allocations_with_mass_at_most_6": 3003,
+      "counterexamples_with_mass_at_most_6": 233,
+      "minimum_mass": 4,
+      "optimal_allocation_count": 9,
+      "legal_by_mass": {
+        "0": 1,
+        "1": 8,
+        "2": 36,
+        "3": 120,
+        "4": 330,
+        "5": 792,
+        "6": 1716
+      },
+      "counterexamples_by_mass": {
+        "4": 9,
+        "5": 44,
+        "6": 180
+      },
+      "optimal_allocations": [
+        {
+          "mass": 4,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 4,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 4,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 4,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 4,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 4,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 4,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 4,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 4,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ]
+        }
+      ]
+    },
+    "exactly_one_block_min_duration_1": {
+      "legal_allocations_with_mass_at_most_6": 355,
+      "counterexamples_with_mass_at_most_6": 14,
+      "minimum_mass": 6,
+      "optimal_allocation_count": 14,
+      "legal_by_mass": {
+        "1": 8,
+        "2": 18,
+        "3": 32,
+        "4": 55,
+        "5": 92,
+        "6": 150
+      },
+      "counterexamples_by_mass": {
+        "6": 14
+      },
+      "optimal_allocations": [
+        {
+          "mass": 6,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              6,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              2
+            ],
+            [
+              8,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 6,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              5,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              2
+            ],
+            [
+              8,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 6,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              2
+            ],
+            [
+              8,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 6,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              2
+            ],
+            [
+              8,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 6,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              2
+            ],
+            [
+              8,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 6,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              2
+            ],
+            [
+              8,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 6,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              2
+            ],
+            [
+              8,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 6,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              8
+            ],
+            [
+              2,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 6,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              8
+            ],
+            [
+              2,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 6,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              8
+            ],
+            [
+              2,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 6,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              8
+            ],
+            [
+              2,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 6,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              8
+            ],
+            [
+              2,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 6,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              5
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              8
+            ],
+            [
+              2,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 6,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              6
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              8
+            ],
+            [
+              2,
+              4
+            ]
+          ]
+        }
+      ]
+    },
+    "at_most_two_blocks_min_duration_1": {
+      "legal_allocations_with_mass_at_most_6": 2015,
+      "counterexamples_with_mass_at_most_6": 189,
+      "minimum_mass": 4,
+      "optimal_allocation_count": 9,
+      "legal_by_mass": {
+        "0": 1,
+        "1": 8,
+        "2": 36,
+        "3": 108,
+        "4": 258,
+        "5": 544,
+        "6": 1060
+      },
+      "counterexamples_by_mass": {
+        "4": 9,
+        "5": 44,
+        "6": 136
+      },
+      "optimal_allocations": [
+        {
+          "mass": 4,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 4,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 4,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 4,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 4,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 4,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 4,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 4,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 4,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ]
+        }
+      ]
+    },
+    "exactly_one_block_min_duration_2": {
+      "legal_allocations_with_mass_at_most_6": 247,
+      "counterexamples_with_mass_at_most_6": 10,
+      "minimum_mass": 6,
+      "optimal_allocation_count": 10,
+      "legal_by_mass": {
+        "2": 6,
+        "3": 16,
+        "4": 35,
+        "5": 68,
+        "6": 122
+      },
+      "counterexamples_by_mass": {
+        "6": 10
+      },
+      "optimal_allocations": [
+        {
+          "mass": 6,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              5,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              2
+            ],
+            [
+              8,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 6,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              2
+            ],
+            [
+              8,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 6,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              2
+            ],
+            [
+              8,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 6,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              2
+            ],
+            [
+              8,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 6,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              2
+            ],
+            [
+              8,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 6,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              8
+            ],
+            [
+              2,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 6,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              8
+            ],
+            [
+              2,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 6,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              8
+            ],
+            [
+              2,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 6,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              8
+            ],
+            [
+              2,
+              4
+            ]
+          ]
+        },
+        {
+          "mass": 6,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              5
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              8
+            ],
+            [
+              2,
+              4
+            ]
+          ]
+        }
+      ]
+    },
+    "at_most_two_blocks_min_duration_2": {
+      "legal_allocations_with_mass_at_most_6": 418,
+      "counterexamples_with_mass_at_most_6": 39,
+      "minimum_mass": 4,
+      "optimal_allocation_count": 1,
+      "legal_by_mass": {
+        "0": 1,
+        "2": 6,
+        "3": 16,
+        "4": 41,
+        "5": 104,
+        "6": 250
+      },
+      "counterexamples_by_mass": {
+        "4": 1,
+        "5": 4,
+        "6": 34
+      },
+      "optimal_allocations": [
+        {
+          "mass": 4,
+          "delta": "0",
+          "missing_by_period_WE": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "true_month_counts_WE": [
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}
