@@ -23,8 +23,8 @@ sec.footer_distance = Cm(1)
 
 for name in ['Normal', 'Title', 'Subtitle', 'Heading 1', 'Heading 2', 'Heading 3', 'Caption']:
     style = doc.styles[name]
-    style.font.name = 'Calibri'
-    style._element.get_or_add_rPr().get_or_add_rFonts().set(qn('w:eastAsia'), '宋体' if name == 'Normal' else '微软雅黑')
+    style.font.name = '宋体'
+    style._element.get_or_add_rPr().get_or_add_rFonts().set(qn('w:eastAsia'), '宋体')
     style.font.color.rgb = RGBColor(0, 0, 0)
     style.font.italic = False
     for border in style._element.xpath('./w:pPr/w:pBdr'):
@@ -478,5 +478,7 @@ doc.core_properties.subject='固定范围删减检查 条件强制漏计下界 �
 doc.core_properties.author=''
 doc.core_properties.keywords='AIS 缺测 敏感性分析 空间变化 最小反例'
 doc.save(OUT)
+from normalize_report_fonts import normalize_report_fonts
+normalize_report_fonts(OUT)
 print(str(OUT))
 print('Paragraphs:',len(doc.paragraphs),'Tables:',len(doc.tables),'References:',len(refs))

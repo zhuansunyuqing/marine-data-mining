@@ -23,7 +23,7 @@ def add_appendix(doc, h, table, root):
             paragraph.paragraph_format.line_spacing = 1.05
             paragraph.paragraph_format.keep_with_next = line != lines[-1]
             run = paragraph.add_run(line)
-            run.font.name = 'Consolas'
+            run.font.name = '宋体'
             run.font.size = Pt(9)
             run._element.get_or_add_rPr().get_or_add_rFonts().set(qn('w:eastAsia'), '宋体')
 
